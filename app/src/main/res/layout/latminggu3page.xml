@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".latminggu3page"
+    android:background="@drawable/materibg">
+
+    <ImageButton
+        android:id="@+id/backlat3"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/backbutton"
+        android:background="@null"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Minggu 3"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alur Dan Struktur Pemrograman"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="165dp"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#4C4C4C"
+                android:textSize="18sp"
+                android:text="@string/lat3" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

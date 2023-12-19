@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_listlatihanpage"
+    android:background="@drawable/listmateribg">
+
+    <ImageButton
+        android:id="@+id/backlistlat"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/backbutton"
+        android:background="@null"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="Latihan"
+        android:textColor="#FFFF"
+        android:textSize="44sp"
+        android:layout_marginTop="28dp"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="145dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/lat1bt"
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu1"
+                android:background="@null"
+                android:layout_marginTop="15dp" />
+
+            <ImageButton
+                android:id="@+id/lat2bt"
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu2"
+                android:background="@null"
+                android:layout_marginTop="85dp"/>
+
+            <ImageButton
+                android:id="@+id/lat3bt"
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu3"
+                android:background="@null"
+                android:layout_marginTop="155dp"/>
+
+            <ImageButton
+                android:id="@+id/lat4bt"
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu4"
+                android:background="@null"
+                android:layout_marginTop="225dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu5"
+                android:background="@null"
+                android:layout_marginTop="295dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu6"
+                android:background="@null"
+                android:layout_marginTop="365dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu7"
+                android:background="@null"
+                android:layout_marginTop="435dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu8"
+                android:background="@null"
+                android:layout_marginTop="505dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu9"
+                android:background="@null"
+                android:layout_marginTop="575dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu10"
+                android:background="@null"
+                android:layout_marginTop="645dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu11"
+                android:background="@null"
+                android:layout_marginTop="715dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu12"
+                android:background="@null"
+                android:layout_marginTop="785dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu13"
+                android:background="@null"
+                android:layout_marginTop="855dp"/>
+
+            <ImageButton
+                android:layout_width="344dp"
+                android:layout_height="54dp"
+                android:src="@drawable/latminggu14"
+                android:background="@null"
+                android:layout_marginTop="925dp"
+                android:layout_marginBottom="25dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Project_ppm</string>
+    <string name="materi1">Alur Logika Pemrograman Komputer - cara berfikir yang sistematis, masuk di akal, dalam menyelesaikan sebuah masalah. Kata logika berasal dari kata logic (logis) berarti nilai kebenarannya harus dapat ditentukan, misal benar atau salah (tidak ada diantaranya), on dan off, hidup dan mati, masuk akal atau tidak, dan lain lain.\n\nLogika harus mempunyai awal dan akhir, serta harus berhenti setelah mengerjakan serangkaian tugas. Setiap langkah harus didefinisikan secara tepat sehingga tidak memiliki arti ganda (not ambiguous).\n\nPengertian Logika lainnya - Logika adalah istilah yang dibentuk dari kata logikos yang berasal dari kata benda logos. Kata logos, berarti sesuatu yang diutarakan, suatu pertimbangan akal (pikiran), kata, percakapan, atau ungkapan lewat bahasa. Kata logikos, berarti mengenal kata, mengenai percakapan atau yang berkenaan dengan ungkapan lewat bahasa.\n\nSecara umum struktur algoritma terdiri dari 3 bagian, yaitu:\n
+        - Nama/ Judul algoritma\n
+        - Bagian deklarasi\n
+        - Bagian deskripsi\n
+    </string>
+
+    <string name="materi2">Para programmer menggunakan software bahasa pemrograman dalam membuat script. Setiap bahasa pemrograman memiliki software serta fungsi yang berbeda. Pada bahasa C terdapat beberapa pilihan software yang bisa digunakan. Berikut 5 contoh software tersebut.\n
+        1. netbeans\n
+        2. Dev C++\n
+        3. Code::Blocks\n
+        4. Visual Studio Code\n
+        5. Notepad++\n\nPada pembelajaran ini kita akan menggunakan Dev C++. Dev C++ merupakan IDE (integrated development environment) gratis yang memiliki lisensi publik umum (GNU)untuk pemograman dalam bahasa C dan C++, Dev C++ pertama kali rilis pada tahun 1998.\n
+        Berikut ini langkah langkah instalasi Dev C++.\n
+        1. Download file instalasi pada browser\n
+        2. Buka file instalasi yang telah di download\n
+        3. Pilih bahasa lalu klik ok\n
+        4. Klik agree\n
+        5. klik next pada fitur yang ingin di install\n
+        6. Pilih tempat penginstallan aplikasi\n
+        7. Klik install dan tunggu hingga selesai\n
+        Jika sudah selesai menginstall maka tinggal mengatur tampilan sesuai selera dan IDE Dev C++ sudah dapat digunakan
+    </string>
+
+    <string name="materi3">Bagaimana bentuk stuktur dasar program C? Mari kita perhatikan program C berikut ini:\n
+        #include stdio.h\n
+        int main(){\n
+            printf("Hello World!");\n
+            return 0;\n
+        }\n\n
+        Ini adalah struktur dasar. Kalau kita perhatikan, struktur program tersebut dibagi menjadi dua bagian utama:\n
+        - Bagian Include;\n
+        - Blok Fungsi Main.\n\nPada program C, #include berfungsi untuk mengimpor fungsi-fungsi yang sudah didefinisikan pada header file. Header file adalah file yang berisi definisi fungsi yang sudah dibuat. Tujuannya agar bisa digunakan pada program C yang lainnya. File ini berekstensi .h, contoh: stdio.h.
+        Pada contoh di atas, kita mengimpor file stdio.h. File ini berisi deklarasi fungsi-fungsi dasar yang kita butuhkan untuk membuat program C, seperti printf(). File stdio.h sudah ada di dalam komputer kita saat menginstal gcc.\n\nFungis main() adalah fungsi utama dalam program. Fungsi ini akan dieksekusi pertamakali saat program dijalankan. Karena itu, kita harus menuliskan logika program di dalam fungsi ini.
+    </string>
+
+    <string name="materi4">
+        1. Tipe Data\n
+        Tipe data biasanya digunakan untuk menentukan jenis nilai yang dapat ditampung oleh suatu variabel, umumnya telah menyediakan tipe-tipe data yang sederhana (simple) maupun yang terstruktur. Apabila kita membutuhkan tipe data yang belum tersedia, kita dapat mendefinisikan sendiri tipe data baru yang disebut enumerated type.
+        Setiap data yang ada pada program pascal memiliki tipe data, baik berupa angka bulat (integer), angka biasa (real), atau berupa karakter (char),(String) dan sebagainya.\n\n2.Variabel\n
+        Variabel adalah identifier yang berisi data yang dapat berubah-ubah nilainya di dalam program. Variabel dapat disebut juga sebagai perubah nilai, yaitu sesuatu yang dapat digunakan untuk menyimpan nilai, dimana nilai yang disimpan ini dapat selalu berubah-ubah.\n\n3.Konstanta\n
+        Konstanta adalah variabel yang nilai datanya bersifat tetap dan tidak bisa diubah. Jadi konstanta adalah juga variabel bedanya adalah pada nilai yang disimpannya. Jika nilai datanya sepanjang program berjalan tidak berubahubah, maka sebuah varibel lebih baik diperlakukan sebagai konstanta. Pada sebuah kode program, biasanya nilai data dari konstanta diberikan langsung di bagian deklarasi konstanta. Sedangkan untuk variabel biasanya hanya ditentukan nama variabel dan tipe datanya tanpa isian nilai data. Aturan penamaan variabel juga berlaku untuk penamaan konstanta.\n\n5.Ekspresi\n
+        Ekspresi  adalah transformasi nilai menjadi keluaran yang dilakukan melalui suatu perhitungan (komputasi). Ekspresi terdiri atas operand dan operator, contoh ekspresi: “a + b”.Hasil Evaluasi dari sebuah Ekpresi adalah nilai yang sesuai dengan type operand yang dipakai
+    </string>
+
+    <string name="lat1">
+        1. Buatlah sebuah flowchart cara meminjam buku di perpustakaan\n\n2. Buatlah sebuah flowchart penyewaan mobil\n\nPresentasikan hasil nya di kelas
+    </string>
+
+    <string name="lat2">
+        Tugas materi minggu ke 2: Buatlah laporan hasil praktikum dari langkah langkah penginstallan Dev C++
+    </string>
+
+    <string name="lat3">
+        1 . Diketahui variabel-variabel sebagai berikut :\n
+        var_bulat = 32767; \n
+        var_pecahanl = 339.234558; \n
+        var_pecahan2 = 3.4567e+040; \n
+        var_karakter = S;\n
+        Buatlah program untuk menampilkan semua variabel di atas\n\n2. Diketahui variabel-variabel sebagai berikut :
+        int a= 12, b = 2, c = 3, d =4; \n
+        Buat program untuk mencetak hasil : \n
+        a-c \n
+        a/d*d+a%d \n
+        a%d/d*a-c \n\n3. Buatlah program untuk mengkonversi suhu dari Celcius ke Fahrenheit dengan rumus\n
+        F = C * 1.8 + 32\n
+        Input : suhu dalam Celcius\n
+        Output : suhu dalam Fahrenheit
+    </string>
+
+    <string name="lat4">
+        1. Buat sebuah program untuk menghitung luas persegi panjang, nilai panjang dan lebar dimasukan melalui keyboard sedangkan besar nilai luas muncul secara otomatis\n\n2. Buat sebuah program untuk menghitung luas lingkaran, nilai jari-jari dimasukan dari keyboard, sedangkan nilai muncul secara otomatis\n\n3. Gaji yang diterima pegawai terdiri dari gaji pokok, tunjangan
+dan upah lembur,besae tunjangan 15% dari gaji pokok, besar
+upah lembur perjam 3% dari gaji pokok. Buatlah program untuk
+menghitung gaji yang diterima pegawai. Masukan (Input). nomor
+pegawai, nama,gaji pegawai,jumlah jam lembur. Keluaran
+(Output): Gaji pokok,tunjangan,uang lembur,total gaji\n\n4. Buatlah program untuk membantu kasir swalayan untuk
+memisahkan pecahan uang kembalian menjadi 50.000, 20.000,
+10.000, 5.000, 2000, 1000, 500,dan 100.
+    </string>
+
+    <string name="softwarelist">
+        Dev C++ adalah sebuah IDE atau sebuah perangkat yang digunakan agar bisa menerjemahkan dan mengkompile bahasa pemrograman C++. Hal ini menjadikan modul Dev C++ bisa digunakan untuk mengkompile, dan menerjemahkan coding yang sudah disusun menggunakan bahasa C dan C++. Ini bisa diwujudkan dengan adanya GCC atau GNU Compiler collection.\n\n
+
+Jadi secara simpelnya, Dev C++ adalah sebuah alat IDE yang digunakan untuk menerjemahkan sebuah bahasa pemrograman C++ serta bisa juga digunakan untuk menerjemahkan bahasa C. Selain itu, versi yang terbaru dari Dev C++ juga mudah dipakai dan dipelajari, dengan versi terbaru yaitu 5.11 yang telah rilis semenjak bulan April tahun 2015.\n\n
+
+Bahasa pemrograman C dan C++ adalah sebuah bahasa pemrograman dasar yang menjadi fondasi dari berbagai aplikasi, dan software, serta bahasa basic yang banyak digunakan oleh komunitas programming. Mempelajari bagaimana cara menggunakan Dev C++ online dan aplikasi ini adalah salah satu fondasi yang bisa kamu pakai untuk mempelajari dasar dari pemrograman.\n\n
+    </string>
+</resources>
